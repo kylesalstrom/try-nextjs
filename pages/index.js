@@ -13,6 +13,15 @@ export async function getStaticProps() {
   };
 }
 
+//** This is how you would do this if you needed to fetch data at request time instead of build time */
+// export async function getServerSideProps(context) {
+//   return {
+//     props: {
+//       // props for your component
+//     },
+//   };
+// }
+
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
