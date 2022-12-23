@@ -49,12 +49,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-      <section>
-        <h2 className={utilStyles.headingLg}>Sample</h2>
-        <h4>
-          Read <Link href="/posts/first-post">this page!</Link>
-        </h4>
-      </section>
     </Layout>
   );
 }
