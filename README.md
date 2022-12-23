@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is a starter template [Current Location In Next.js Tutorial](https://nextjs.org/learn/basics/api-routes).
